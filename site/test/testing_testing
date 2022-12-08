@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<style>
+	div {
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  width: 100px;
+  border: 10px solid black;
+}
+</style>
+<body>
+
+<div>This is the div element.</div>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+
+</body>
+</html>
