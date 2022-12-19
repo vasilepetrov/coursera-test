@@ -17,6 +17,7 @@ function makeMultiplier(multiplier) {
 }
 
 var multiplyBy3 = makeMultiplier(3);
+console.log(multiplyBy3)  // This is a function, namely f(x) { return multiplier * x } and this is why you can pass an argument into it;
 console.log(multiplyBy3(10));
 var doubleAll = makeMultiplier(2);
 console.log(doubleAll(100));
@@ -32,13 +33,3 @@ var result = doOperationOn(5, multiplyBy3);
 console.log(result);
 result = doOperationOn(100, doubleAll);
 console.log(result);
-
-
-
-
-
-
-
-
-
-
