@@ -13,6 +13,7 @@ function sayHello () {
 
   document
     .getElementById("content")
+    //.textContent = message;
     .innerHTML = message;
 
   if (name === "student") {
